@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 80px;
+    height: auto;
+    min-height: 400px;
+}
+
+.contenedor_main {
+    width: auto;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+    color: rgb(48, 2, 2);
+}
+
+fieldset {
+    width: auto;
+    max-width: 500px;
+    border: 2px solid rgb(48, 2, 2);
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.tr_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.td_form {
+    max-width: 330px;
+}
+
+td {
+    max-width: 230px;
+}
+
+.td_admin {
+    max-width: 100px;
+}
+
+input,
+select {
+    border: 1px solid rgb(48, 2, 2);
+    padding: 3px;
+    width: 205px;
+}
+
+.inp_form {
+    width: 300px;
+    border: 1px solid rgb(48, 2, 2);
+}
+
+small {
+    color: red;
+    display: none;
+}
+
+.error input,
+.error select {
+    border: 2px solid red;
+}
+
+.correcto input,
+.correcto select {
+    border: 1px solid rgb(48, 2, 2);
+}
+
+.error small {
+    display: unset;
+}
+
+.checke {
+    width: 20px;
+    height: 20px;
+}
+
+.ico_ver {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.ico_editar,
+.ico_borrar,
+.ico_entrar {
+    width: 18px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.login_err {
+    color: red;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton_enviar_registro,
+.loging,
+.solicitar_cita {
+    width: auto;
+    height: 50px;
+    border: 2px solid rgb(48, 2, 2);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(48, 2, 2);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.boton_enviar_registro:hover,
+.loging:hover,
+.solicitar_cita:hover {
+    background-color: aliceblue;
+    color: rgb(48, 2, 2);
+}
+
+.politica label {
+    cursor: pointer;
+}
+
+.politica input {
+    width: 25px;
+    cursor: pointer;
+}
+
+.registro_ok {
+    color: rgb(18, 211, 12);
+    font-size: 1rem;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    width: 300px;
+}
+
+
+/**********************************Cita usuario**************************************/
+
+.borde {
+    border: 1px solid rgb(48, 2, 2);
+}
+
+.solicitar_cita {
+    width: 100%;
+}
+
+.tus_citas {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: red;
+    text-shadow: 1px 1px 0 black;
+}
+
+.btn_borrar,
+.btn_modificar {
+    padding: 2px;
+    display: inline;
+    border: 0;
+    width: auto;
+    height: 23px;
+    color: aliceblue;
+    background-color: rgb(48, 2, 2);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 1px 0 1px;
+}
+
+.btn_borrar:hover,
+.btn_modificar:hover {
+    color: rgb(48, 2, 2);
+    background-color: aliceblue;
+    border: 1px solid rgb(48, 2, 2);
+    padding: 0;
+}
+
+
+/********************************* Contacto ******************************/
+
+.contenedor_mapa {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: outset rgb(48, 2, 2) 2px;
+    z-index: 1;
+}
+
+
+/*************************************** Perfil_user_admin **********************************/
+
+textarea {
+    resize: none;
+    border: 1px solid rgb(48, 2, 2);
+    width: 210px;
+    padding: 3px;
+}
+
+
+/**************************************** Crear noticias ************************************/
+
+.conte_table {
+    width: auto;
+}
+
+tbody {
+    width: 500px;
+}
+
+.conte_tr {
+    width: auto;
+}
+
+.borde {
+    border: 2px solid rgb(48, 2, 2);
+}
+
+.conte_td {
+    display: block;
+    width: auto;
+}
+
+.conte_input {
+    width: 309px;
+}
+
+
+/********************************************* Noticias ****************************************/
+
+.contenedor_noticia {
+    width: 80%;
+    margin: auto;
+    color: rgb(48, 2, 2);
+}
+
+.h2_noticia {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conten_img_p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.p_autor {
+    text-align: left;
+}
+
+.img_noti {
+    margin: 20px 0 0 0;
+}
+
+.texto {
+    min-height: 270px;
+}
+
+.img_noti {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:768px) {
+    .registro_ok {
+        font-size: 1.5rem;
+    }
+    .contenedor_mapa {
+        width: 70%;
+        height: 400px;
+    }
+    .tr_form {
+        flex-direction: row;
+        margin: 3px;
+    }
+    .td_form {
+        width: 240px;
+        justify-content: space-around;
+    }
+    .inp_form {
+        width: 205px;
+    }
+    /*****Noticias*****/
+    .conten_img_p {
+        display: inline;
+    }
+    .img_noti {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+}
